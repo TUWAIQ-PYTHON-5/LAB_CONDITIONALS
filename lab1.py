@@ -8,5 +8,5 @@ elif IMDB >=3 and popularity_score >=70:
     print("I recommended it . It is good")
 elif IMDB >=2 and popularity_score >=60:
     print("You should check it out!")
-elif IMDB <2 and popularity_score <50:
+elif IMDB <2 or popularity_score <50:
     print("Don't watch it. It is a waste of time")
