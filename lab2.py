@@ -1,5 +1,6 @@
 
 
+
 Movie_rate = 5
 this_Movie = 3
 popularity_Score = 72.65
@@ -12,6 +13,9 @@ elif this_Movie >= 2 and popularity_Score > 60:
     print("You should check it out!")
 elif this_Movie <= 2 and popularity_Score > 50:
     print("Don't watch it. It is a waste of time")
+
+
+
 
 
 
