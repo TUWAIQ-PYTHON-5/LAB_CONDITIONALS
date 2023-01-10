@@ -1,6 +1,6 @@
 MovieName : str = "The sky"
-MovieRating : int = 2
-MoviePopularity : float = 40
+MovieRating : int = 3
+MoviePopularity : float = 72.56
 
 
 if MovieRating >= 4 and MoviePopularity > 80:
