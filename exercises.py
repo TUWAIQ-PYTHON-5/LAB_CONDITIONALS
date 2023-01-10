@@ -38,7 +38,7 @@ mon=int(input("your moth :" ))
 day=int(input("your day :" ))
 year=int(input("your year :" ))
 if mon * day == year :
-    print("magical dat3")
+    print("magical date")
 else :
     print("not magical")
 
