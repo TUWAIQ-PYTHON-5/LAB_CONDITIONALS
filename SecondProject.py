@@ -1,6 +1,6 @@
 MovieName="ATTAC"
 rating_of_the_movie : int = 3
-popularity_score : float = 30.6
+popularity_score : float = 72.65
 
 if rating_of_the_movie >= 4 and popularity_score > 80:
     print("Highly recommended")
