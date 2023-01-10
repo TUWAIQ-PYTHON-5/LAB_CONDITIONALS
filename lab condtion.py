@@ -7,9 +7,9 @@ if rate>=4 and popularity>80:
     print ("Highly recommended")
 elif rate>=3 and popularity>70:
     print ("I recommended it . It is good")
-elif rate<2 and popularity>60 or rate<2 and popularity<50: 
+elif rate<2 and popularity>60: 
     print ("You should check it out!")
-else:
+elif rate<=2 or popularity>60: 
     print ("Don't watch it. It is a waste of time")
 
 
