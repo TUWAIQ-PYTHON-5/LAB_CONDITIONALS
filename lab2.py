@@ -1,15 +1,15 @@
 
-Movie_rate = 5
-this_Movie = 3
+this_Movie = "Avatar"
+Movie_rate = 3
 popularity_Score = 72.65
 
-if this_Movie >= Movie_rate and popularity_Score > 80:
+if Movie_rate >= 4 and popularity_Score > 80:
     print("Highly recommended")
-elif this_Movie >= Movie_rate and popularity_Score > 70:
+elif Movie_rate >= 3 and popularity_Score > 70:
     print("I recommended it . It is good")
-elif this_Movie >= Movie_rate and popularity_Score > 60:
+elif Movie_rate >= 2 and popularity_Score > 60:
     print("You should check it out!")
-elif this_Movie <= Movie_rate and popularity_Score < 50:
+elif Movie_rate <= 2 and popularity_Score < 50:
     print("Don't watch it. It is a waste of time")
 
 
